@@ -1,0 +1,17 @@
+
+<html>
+  <head>         
+    <script src="https://unpkg.com/vue@3"></script>
+  </head>
+  <body>
+        
+    <div id="app">{{ message }}</div>
+    <script>
+      const { createApp } = Vue;
+      createApp({
+        data() {
+          return { message: "Hello World 03.10.2025!" };
+        },
+      }).mount("#app");
+    </script>
+  </body>
